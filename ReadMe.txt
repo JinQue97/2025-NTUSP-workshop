@@ -2,6 +2,8 @@ Advanced Pharmacometrics Lab - APL
 Workshop materials for National Taiwan University
 Date: 2025-05-07
 
+- If you can't run the script for any reasons, open 2025 National Taiwan University - Population Pharmacokinetics workshop_part1.pdf and part2.pdf for the workshop - 
+
 1. Download and install R
   - Go to https://www.r-project.org/ and then select the "CRAN" link under "Download"
   - Select a CRAN Mirror site - e.g. the Taiwan site is: https://cran.csie.ntu.edu.tw/
