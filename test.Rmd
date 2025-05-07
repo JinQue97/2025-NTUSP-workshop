@@ -15,7 +15,8 @@ Ensure that a C compiler is installed on your system. For installation instructi
 
 2. **Restore the R environment**  
 Run the following code chunk to install and restore the required packages.
-You can run the code chunck by clicking the green arrow button at right-below
+You can run the code chunck by clicking the green arrow button at right-below.
+
 When prompted in the console, type Y at install.packages(), select **2** when prompted by renv::restore(), and type Y again to proceed.
 ```{r, echo = TRUE, message = "hide", warning = "hide", results = "hide"}
 install.packages("renv")
