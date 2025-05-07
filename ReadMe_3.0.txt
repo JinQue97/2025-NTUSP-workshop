@@ -1,0 +1,56 @@
+Advanced Pharmacometrics Lab - APL
+Workshop materials for National Taiwan University
+Date: 2025-05-02
+Author: Jin Gyu Kim (kim.6182@buckeyemail.osu.edu)
+
+1. Download and install R
+  - Go to https://www.r-project.org/ and then select the "CRAN" link under "Download"
+  - Select a CRAN Mirror site - e.g. the Taiwan site is: https://cran.csie.ntu.edu.tw/
+  - Select the "Download R for XXX" where XXX is your platform (e.g. Windows) 
+  - If using Windows, 
+      - Select the link for "install R for the first time
+      - Select the link for "Previous releases" under the "Other builds" section
+      - Select the link for "R 4.4.1 (June, 2024)"
+  - If not using Windows, follow the links to the appropriate installs for your system
+
+2. Download and install RStudio
+  - Visit https://posit.co/download/rstudio-desktop/ to download and install the newest version of RStudio
+  
+3. Install complier via RTools
+
+C/C++ Compiler Requirement for nlmixr2
+=====================================
+The `nlmixr2` package requires a C/C++ compiler to perform model estimation. The installation process for the compiler depends on your operating system. 
+
+Windows
+-------
+- Download and install RTools that matches your R version (note that installing RTools will install the compiler).
+- You can find RTools here: https://cran.r-project.org/bin/windows/Rtools/
+- To check your R version, type `R.version` in the R console. It may be version 4.4.0, 4.3.x, or another version.
+
+macOS
+-------
+- Download and install the GNU Fortran compiler to run this script on Mac.
+- You can find the compiler here: https://mac.r-project.org/tools/
+
+Linux
+-------
+- Ensure GCC is installed via your package manager.
+
+Examples:
+
+    # Debian/Ubuntu
+    sudo apt-get install build-essential
+
+    # Fedora
+    sudo dnf groupinstall "Development Tools"
+
+4. Perform  test run
+
+Once the compiler is installed
+- open the test_run.Rproj file (this can be completed by double-clicking on the file or opening RStudio and opening it from there)
+- within RStudio, open test.rmd and follow the steps from Setup (1-4) to continue. 
+  - if errors occur (which is common), try re-running the same chunks of code
+  - if errors persist, try manually performing the step where the code failed
+  
+--------------------------------
