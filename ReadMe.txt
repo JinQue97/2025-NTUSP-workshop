@@ -2,9 +2,13 @@ Advanced Pharmacometrics Lab - APL
 Workshop materials for National Taiwan University
 Date: 2025-05-07
 
-- If you can't run the script for any reasons, open 2025 National Taiwan University - Population Pharmacokinetics workshop_part1.pdf and part2.pdf for the workshop - 
+- If you can't run the script for any reasons, open '2025 National Taiwan University - Population Pharmacokinetics workshop_part1.pdf' and 'part2.pdf' for the workshop - 
 
-1. Download and install R
+1. Download current repository 
+  - Click green button '<> Code' and click 'Download ZIP'
+  - Extract files on your local computer
+
+2. Download and install R
   - Go to https://www.r-project.org/ and then select the "CRAN" link under "Download"
   - Select a CRAN Mirror site - e.g. the Taiwan site is: https://cran.csie.ntu.edu.tw/
   - Select the "Download R for XXX" where XXX is your platform (e.g. Windows) 
@@ -14,18 +18,10 @@ Date: 2025-05-07
       - Select the link for "R 4.4.1 (June, 2024)"
   - If not using Windows, follow the links to the appropriate installs for your system
 
-2. Download and install RStudio
+3. Download and install RStudio
   - Visit https://posit.co/download/rstudio-desktop/ to download and install the newest version of RStudio
 
-3. Download repository 
-  - Click green button '<> Code' and click 'Download ZIP'
-  - Extract files on your local computer
-
-4. Install complier via RTools
-
-C/C++ Compiler Requirement for nlmixr2
-=====================================
-The `nlmixr2` package requires a C/C++ compiler to perform model estimation. The installation process for the compiler depends on your operating system. 
+4. Install RTools
 
 Windows
 -------
