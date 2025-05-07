@@ -15,6 +15,7 @@ Ensure that a C compiler is installed on your system. For installation instructi
 
 2. **Restore the R environment**  
 Run the following code chunk to install and restore the required packages.
+You can run the code chunck by clicking the green arrow button at right-below
 When prompted in the console, type Y at install.packages(), select **2** when prompted by renv::restore(), and type Y again to proceed.
 ```{r, echo = TRUE, message = "hide", warning = "hide", results = "hide"}
 install.packages("renv")
@@ -25,11 +26,7 @@ has_rtools <- pkgbuild::has_build_tools(debug = TRUE)
 ```
 
 3. **Run Script**
-To knit the `.Rmd` document, press `Ctrl + Shift + K` (Windows) or `Cmd + Shift + K` (Mac) in RStudio. This will generate the output document based on the settings defined in the YAML header. 
-
-4. **Validate the Run**
-`test.html` is an outcome after successful run from `test.Rmd` script. Compare with `test_run_complete.pdf` if anything is missing.
-Compare this file with test_run_complete.pdf to ensure that no content is missing. If any issues are encountered, please contact the author for troubleshooting.
+Run the scripts below and check if it runs successfully
 
 ***
 
