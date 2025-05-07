@@ -39,9 +39,6 @@ macOS
 Linux
 -------
 - Ensure GCC is installed via your package manager.
-
-Examples:
-
     # Debian/Ubuntu
     sudo apt-get install build-essential
 
@@ -49,13 +46,16 @@ Examples:
     sudo dnf groupinstall "Development Tools"
 
 4. Perform  test run
-
 Once the compiler is installed
 - open the test_run.Rproj file (this can be completed by double-clicking on the file or opening RStudio and opening it from there)
 - within RStudio, open test.rmd and follow the steps from Setup (1-4) to continue. 
   - if errors occur (which is common), try re-running the same chunks of code
   - if errors persist, try manually performing the step where the code failed
-  
+- If you can't run the script for any reasons, open 2025 National Taiwan University - Population Pharmacokinetics workshop_part1.pdf and part2.pdf to follow the workshop
+
+5. Open workshop materials
+- After successful test run, open NTU_workshop_part1.Rmd and part2.Rmd within RStudio and follow instructions
+
 --------------------------------
 
 Jin Gyu Kim (kim.6182@buckeyemail.osu.edu)
