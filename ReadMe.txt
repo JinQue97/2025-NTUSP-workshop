@@ -43,7 +43,7 @@ Linux
     # Fedora
     sudo dnf groupinstall "Development Tools"
 
-4. Perform  test run
+5. Perform  test run
 Once the compiler is installed
 - open the test_run.Rproj file (this can be completed by double-clicking on the file or opening RStudio and opening it from there)
 - within RStudio, open test.rmd and follow the steps from Setup (1-4) to continue. 
@@ -51,7 +51,7 @@ Once the compiler is installed
   - if errors persist, try manually performing the step where the code failed
 - If you can't run the script for any reasons, open 2025 National Taiwan University - Population Pharmacokinetics workshop_part1.pdf and part2.pdf to follow the workshop
 
-5. Open workshop materials
+6. Open workshop materials
 - After successful test run, open NTU_workshop_part1.Rmd and part2.Rmd within RStudio and follow instructions
 
 --------------------------------
