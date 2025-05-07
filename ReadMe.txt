@@ -27,7 +27,7 @@ Windows
 -------
 - Download and install RTools that matches your R version (note that installing RTools will install the compiler).
 - You can find RTools here: https://cran.r-project.org/bin/windows/Rtools/
-- To check your R version, type `R.version` in the R console. It may be version 4.4.0, 4.3.x, or another version.
+- To check your R version, type `R.version` in the R console. It may be version 4.4.x or another version.
 
 macOS
 -------
