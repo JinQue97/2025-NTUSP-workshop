@@ -1,7 +1,6 @@
 Advanced Pharmacometrics Lab - APL
 Workshop materials for National Taiwan University
-Date: 2025-05-02
-Author: Jin Gyu Kim (kim.6182@buckeyemail.osu.edu)
+Date: 2025-05-07
 
 1. Download and install R
   - Go to https://www.r-project.org/ and then select the "CRAN" link under "Download"
@@ -15,8 +14,12 @@ Author: Jin Gyu Kim (kim.6182@buckeyemail.osu.edu)
 
 2. Download and install RStudio
   - Visit https://posit.co/download/rstudio-desktop/ to download and install the newest version of RStudio
-  
-3. Install complier via RTools
+
+3. Download repository 
+  - Click green button '<> Code' and click 'Download ZIP'
+  - Extract files on your local computer
+
+4. Install complier via RTools
 
 C/C++ Compiler Requirement for nlmixr2
 =====================================
@@ -54,3 +57,5 @@ Once the compiler is installed
   - if errors persist, try manually performing the step where the code failed
   
 --------------------------------
+
+Jin Gyu Kim (kim.6182@buckeyemail.osu.edu)
