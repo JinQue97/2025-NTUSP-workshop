@@ -18,12 +18,12 @@ Run the following code chunk to install *renv* and *pkgbuild*. When prompted in 
 ```{r}
 install.packages("renv")
 ```
-
+When prompted in the console, type Y at install.packages()
 ```{r}
 install.packages("pkgbuild")
 ```
 
-After installing packages, and activate the R project by running the code chunk below
+After installing packages, activate the R project by running the code chunk below
 ```{r}
 library(renv)
 renv::activate()
@@ -31,7 +31,7 @@ renv::activate()
 
 2-1. **Restore packages**
 This step will allow you to sync the packages from renv.lock file.
-When prompted in the console, type Y to update your packages inside the project folder
+When prompted in the console, type Y to update your packages inside the project folder.
 ```{r, echo = TRUE, message = "hide", warning = "hide", results = "hide"}
 renv::restore()
 has_rtools <- pkgbuild::has_build_tools(debug = TRUE)
