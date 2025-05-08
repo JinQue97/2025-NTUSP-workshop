@@ -8,6 +8,8 @@ Date: 2025-05-07
   - Click green button '<> Code' and click 'Download ZIP'
   - Extract files on your local computer
 
+- Skip to step 5 if you have donwloaded R, Rstuio, and RTools - 
+
 2. Download and install R
   - Go to https://www.r-project.org/ and then select the "CRAN" link under "Download"
   - Select a CRAN Mirror site - e.g. the Taiwan site is: https://cran.csie.ntu.edu.tw/
@@ -21,7 +23,7 @@ Date: 2025-05-07
 3. Download and install RStudio
   - Visit https://posit.co/download/rstudio-desktop/ to download and install the newest version of RStudio
 
-4. Install RTools - If you have downloaded it already, skip this step
+4. Install RTools 
 
 Windows
 -------
