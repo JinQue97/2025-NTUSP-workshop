@@ -21,7 +21,7 @@ Date: 2025-05-07
 3. Download and install RStudio
   - Visit https://posit.co/download/rstudio-desktop/ to download and install the newest version of RStudio
 
-4. Install RTools
+4. Install RTools - If you have downloaded it already, skip this step
 
 Windows
 -------
