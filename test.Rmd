@@ -17,10 +17,8 @@ Ensure that a C compiler is installed on your system. For installation instructi
 Run the following code chunk to install and restore the required packages.
 You can run the code chunck by clicking the green arrow button at right-below.
 
-When prompted in the console, type Y at install.packages(), select **2** when prompted by renv::restore(), and type Y again to proceed.
+When prompted in the console, select **2** when prompted by renv::restore(), and type Y again to proceed.
 ```{r, echo = TRUE, message = "hide", warning = "hide", results = "hide"}
-install.packages("renv")
-install.packages("pkgbuild")
 library(renv)
 renv::restore()
 has_rtools <- pkgbuild::has_build_tools(debug = TRUE)
