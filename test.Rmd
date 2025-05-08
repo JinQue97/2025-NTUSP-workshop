@@ -17,8 +17,12 @@ Ensure that a C compiler is installed on your system. For installation instructi
 Run the following code chunk to install *renv* and *pkgbuild*. When prompted in the console, type Y at install.packages()
 ```{r}
 install.packages("renv")
+```
+
+```{r}
 install.packages("pkgbuild")
 ```
+
 After installing packages, and activate the R project by running the code chunk below
 ```{r}
 library(renv)
