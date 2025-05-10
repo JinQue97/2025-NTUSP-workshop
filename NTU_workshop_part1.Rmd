@@ -376,25 +376,25 @@ two_cmt_combined_xpdb_pk <- xpose_data_nlmixr2(two_cmt_combined_pk_fit,
                                      )
 
 # observation vs individual prediction plot
-add_error_dv_pred <- dv_vs_pred(two_cmt_xpdb_pk, 
+add_error_dv_pred <- dv_vs_pred(two_cmt_add_xpdb_pk, 
                                 group="ID",
                                 title = "Additive Error",
-                                log = "xy",
+                                #log = "xy",
                                 subtitle = NULL,
                                 guide = FALSE
                                 )
 
-prop_error_dv_pred <- dv_vs_pred(two_cmt_add_xpdb_pk, 
+prop_error_dv_pred <- dv_vs_pred(two_cmt_xpdb_pk, 
                                 group="ID",
                                 title = "Proportional Error",
-                                log = "xy",
+                                #log = "xy",
                                 subtitle = NULL,
                                 guide = FALSE
                                 )
 comb_error_dv_pred <- dv_vs_pred(two_cmt_combined_xpdb_pk, 
                                 group="ID",
                                 title = "Combined Error",
-                                log = "xy",
+                                #log = "xy",
                                 subtitle = NULL,
                                 guide = FALSE
                                 )
